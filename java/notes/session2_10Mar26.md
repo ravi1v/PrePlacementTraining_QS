@@ -1,4 +1,4 @@
-Trainer: Pawan Kumar | Java [AN: 13:15 - 16:00]
+Trainer: Pawan Kumar | Java [AN: 1315 - 1600]
 
 ---
 
@@ -204,20 +204,20 @@ bye
 
 ```java
 class elseIfStatement{
-	public static void main(String[] args){
-		System.out.println("Statement0");
-		if(true)
-			System.out.println("statement1");
-		else if(false)
-			System.out.println("Statement2");
-		else if(false)
-			System.out.println("Statement3");
-		else if(true)
-			System.out.println("Statement4");
-		else
-			System.out.println("Statement5");
-		System.out.println("Statement6");
-	}
+    public static void main(String[] args){
+        System.out.println("Statement0");
+        if(true)
+            System.out.println("statement1");
+        else if(false)
+            System.out.println("Statement2");
+        else if(false)
+            System.out.println("Statement3");
+        else if(true)
+            System.out.println("Statement4");
+        else
+            System.out.println("Statement5");
+        System.out.println("Statement6");
+    }
 }
 ```
 
@@ -233,19 +233,19 @@ Statement6
 
 ```java
 class switchStatement{
-	public static void main(String[] args){
-		int x = 10;
-		switch(x){
-			case 0:
-				System.out.println("0");
-			case 10:
-				System.out.println("1");
-			case 20:
-				System.out.println("2");
-			default:
-				System.out.println("fin");
-		}
-	}
+    public static void main(String[] args){
+        int x = 10;
+        switch(x){
+            case 0:
+                System.out.println("0");
+            case 10:
+                System.out.println("1");
+            case 20:
+                System.out.println("2");
+            default:
+                System.out.println("fin");
+        }
+    }
 }
 ```
 
@@ -261,22 +261,22 @@ fin
 
 ```java
 class switchBreaksStatement{
-	public static void main(String[] args){
-		int x = 10;
-		switch(x){
-			case 0:
-				System.out.println("0");
-				break;
-			case 10:
-				System.out.println("1");
-				break;
-			case 20:
-				System.out.println("2");
-				break;
-			default:
-				System.out.println("fin");
-		}
-	}
+    public static void main(String[] args){
+        int x = 10;
+        switch(x){
+            case 0:
+                System.out.println("0");
+                break;
+            case 10:
+                System.out.println("1");
+                break;
+            case 20:
+                System.out.println("2");
+                break;
+            default:
+                System.out.println("fin");
+        }
+    }
 }
 ```
 
